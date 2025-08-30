@@ -25,7 +25,7 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: "https://chat-app-bay-alpha-44.vercel.app",
-    // credentials: true,
+    credentials: true,
   })
 );
 
