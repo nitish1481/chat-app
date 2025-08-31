@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 import { Loader2, UserX } from 'lucide-react';
 import {axiosInstance} from '../lib/axios';
 import FriendCard from '../components/FriendCard';

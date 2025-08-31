@@ -47,7 +47,6 @@ const UserProfile = () => {
     setIsSendingRequest(true);
     setRequestStatus('');
     try {
-      // Replaced axiosInstance with the mock API call
       await axiosInstance.post(`/friends/sendrequest/${username}`);
       setUser((prevUser) => ({
         ...prevUser,
